@@ -56,15 +56,16 @@ Serviço conectado ao banco de produtos.
 Porta de entrada para todos os microservices.
 
 ## 🚀 Como Executar
-Certifique-se de ter o Docker e o Docker Compose instalados.
-Clone este repositório:https://github.com/GustavoRampanelli/Atividade-Final-do-Semestre---Microservices
-Acesse a pasta do repositório:
-cd seu-repositorio
-Suba os serviços com:
-docker-compose up
-Acesse os serviços pelos seguintes endereços:
-Eureka Service: http://localhost:8761
-API Gateway: http://localhost:8080
+### Certifique-se de ter o Docker e o Docker Compose instalados.
+### Clone este repositório:
+https://github.com/GustavoRampanelli/Atividade-Final-do-Semestre---Microservices
+### Acesse a pasta do repositório:
+ cd seu-repositorio
+### Suba os serviços com:
+ docker-compose up
+### Acesse os serviços pelos seguintes endereços:
+### Eureka Service: http://localhost:8761
+### API Gateway: http://localhost:8080
 
 
 ## 🧪 **Teste das Rotas**
@@ -75,12 +76,4 @@ API Gateway: http://localhost:8080
 ### GET http://localhost:8080/produto/{endpoint}
 ### Saudacao-Service:GET http://localhost:8080/saudacao/{endpoint}
 
-## 📋 **Estrutura do Repositório**
-### ├── cambio-service/
-### ├── produto-service/
-### ├── saudacao-service/
-### ├── config-service/
-### ├── eureka-service/
-### ├── api-gateway-service/
-### └── compose.yaml
 
